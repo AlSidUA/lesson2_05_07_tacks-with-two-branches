@@ -12,12 +12,6 @@ import {FIRE, WATER, GRASS, ELECTRIC} from './tacks/games/effectiveness';
 function App() {
   return (
     <div className="App">
-      <track1>
-        {
-          `The result of solving problem No. 1: ${naturalNumber(10)}`
-        }
-      </track1>
-      
       <track2>
               {
                 `The result of solving problem No. 2: ${damage(FIRE, GRASS, 10, 10)}`
