@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       {
-        naturalNumber(10)
+        `The result of solving problem No. 1: ${naturalNumber(10)}`
       }
     </div>
   );
