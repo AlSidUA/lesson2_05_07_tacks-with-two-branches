@@ -1,13 +1,28 @@
 import './App.css';
 import naturalNumber from './tacks/tacks1';
+import { damage } from './tacks/games/tacks2';
+import {FIRE, WATER, GRASS, ELECTRIC} from './tacks/games/effectiveness';
+
+
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      {
-        `The result of solving problem No. 1: ${naturalNumber(10)}`
-      }
+      <track1>
+        {
+          `The result of solving problem No. 1: ${naturalNumber(10)}`
+        }
+      </track1>
+      
+      <track2>
+              {
+                `The result of solving problem No. 2: ${damage(FIRE, GRASS, 10, 10)}`
+              }
+      </track2>
       
       
     </div>
