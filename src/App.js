@@ -1,5 +1,4 @@
 import './App.css';
-import naturalNumber from './tacks/tacks1';
 import { damage } from './tacks/games/tacks2';
 import {FIRE, WATER, GRASS, ELECTRIC} from './tacks/games/effectiveness';
 
